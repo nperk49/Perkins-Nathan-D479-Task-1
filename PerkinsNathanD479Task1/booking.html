@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Taniti lodging, activity, and transportation booking demonstrations.">
+    <title>Booking | Discover Taniti</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="site-title">
+                <a href="index.html">Discover Taniti</a>
+                <p>Explore your island getaway</p>
+            </div>
+
+            <!-- HOME AND BOOKING REMAIN ACCESSIBLE ON MOBILE -->
+            <div class="header-shortcuts">
+                <a href="index.html">Home</a>
+                <a href="booking.html" class="shortcut-booking">Booking</a>
+            </div>
+            <button type="button" class="menu-toggle" aria-controls="primary-navigation"
+                    aria-expanded="false">Menu</button>
+        </div>
+    </header>
+
+    <!-- Menu Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container nav-links" id="primary-navigation">
+                <a href="index.html">Home</a>
+                <a href="booking.html" class="active" aria-current="page">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav" aria-label="On this page">
+        <div class="container secondary-content">
+            <div class="jump-links">
+                <strong>Jump To:</strong>
+                    <a href="#reservation-demo">Booking Demo</a>
+                    <a href="#booking-process">How Booking Works</a>
+            </div>
+            <a class="secondary-booking" href="booking.html">Booking Information</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Page Intro -->
+        <section class="page-intro container">
+            <div class="page-intro-text">
+                <h1>Booking Information</h1>
+                <p>Explore a demonstration of how a visitor might plan lodging, activities, or transportation.</p>
+            </div>
+            <img src="images/vacationplanstockimage.jpg" alt="" class="page-intro-image"
+                 width="800" height="400">
+        </section>
+
+        <!-- Booking Demo -->
+        <section id="reservation-demo" class="booking-section">
+            <div class="container">
+                <h2>Preview a Booking Journey</h2>
+                <p class="prototype-note"><strong>Educational prototype:</strong>
+                   This form does not place reservations, process payments, or
+                   confirm availability. The materials do not provide real
+                   booking services or property links.</p>
+
+                <form class="booking-form" id="booking-demo">
+                    <label for="booking-service">What would you like to arrange?</label>
+                    <select id="booking-service" name="service" required>
+                        <option value="stay">Accommodation</option>
+                        <option value="activity">Activity or Tour</option>
+                        <option value="transport">Transportation</option>
+                    </select>
+
+                    <div id="stay-options">
+                        <label for="stay-type">Preferred accommodation type</label>
+                        <select id="stay-type" name="accommodation">
+                            <option value="hotel">Hotel or Resort</option>
+                            <option value="beach-house">Beach House or Private Rental</option>
+                            <option value="bed-breakfast">Bed &amp; Breakfast</option>
+                            <option value="hostel">Hostel</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="button">Preview Next Step</button>
+                    <p class="form-note">This form is for usability testing only.</p>
+
+                    <div id="booking-result" class="booking-result" role="status"
+                         tabindex="-1" hidden>
+                        <h3>Next Step</h3>
+                        <p id="booking-output"></p>
+                        <a id="booking-next" href="stay.html" class="button button-outline">
+                            Explore Accommodation Information
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Booking Process -->
+        <section id="booking-process" class="content-section content-section-alt">
+            <div class="container">
+                <h2>How a Real Reservation Would Work</h2>
+                <ol>
+                    <li><strong>Select:</strong> Choose a lodging, activity, or travel service.</li>
+                    <li><strong>Review:</strong> Check provider details, prices, dates, and policies.</li>
+                    <li><strong>Confirm:</strong> Complete a reservation on the verified provider's site.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <h3>Discover Taniti</h3>
+
+            <!-- Footer Navigation -->
+            <nav aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+            </nav>
+
+            <!-- Project Information -->
+            <p class="source-note">
+                Prototype for WGU D479.
+            </p>
+
+        </div>
+    </footer>
+
+    </body>
+    </html>

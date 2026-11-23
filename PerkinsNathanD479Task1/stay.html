@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Taniti hotels, four-star resort, hostel, bed and breakfasts, and beach houses.">
+    <title>Where to Stay | Discover Taniti</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="site-title">
+                <a href="index.html">Discover Taniti</a>
+                <p>Explore your island getaway</p>
+            </div>
+
+            <!-- HOME AND BOOKING REMAIN ACCESSIBLE ON MOBILE -->
+            <div class="header-shortcuts">
+                <a href="index.html">Home</a>
+                <a href="booking.html" class="shortcut-booking">Booking</a>
+            </div>
+            <button type="button" class="menu-toggle" aria-controls="primary-navigation"
+                    aria-expanded="false">Menu</button>
+        </div>
+    </header>
+
+    <!-- Menu Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container nav-links" id="primary-navigation">
+                <a href="index.html">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html" class="active" aria-current="page">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav" aria-label="On this page">
+        <div class="container secondary-content">
+            <div class="jump-links">
+                <strong>Jump To:</strong>
+                    <a href="#options">Accommodation Options</a>
+                    <a href="#beach-houses">Beach Houses</a>
+                    <a href="#stay-advice">Before You Book</a>
+            </div>
+            <a class="secondary-booking" href="booking.html">Booking Information</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Page Introduction -->
+        <section class="page-intro container">
+            <div class="page-intro-text">
+                <h1>Where to Stay</h1>
+                <p>Find lodging information for hotels, bed and breakfasts, hostels, and private beach house stays.</p>
+            </div>
+            <img src="images/housingstockimage.jpg" alt="" class="page-intro-image"
+                 width="800" height="400">
+        </section>
+
+        <!-- Accomodation Options -->
+        <section id="options" class="content-section">
+            <div class="container">
+                <h2>Accommodation Options</h2>
+                <p>All types of lodging on Taniti are strictly regulated and regularly
+                   inspected by the island government.</p>
+                <div class="info-grid">
+                    <article class="info-card">
+                        <h3>Hotels and Resort</h3>
+                        <p>Taniti has many small, family-owned hotels and one large,
+                           four-star resort.</p>
+                        <a href="booking.html?type=stay&amp;stay=hotel" class="card-link">Booking Information</a>
+                    </article>
+                    <article class="info-card">
+                        <h3>Bed &amp; Breakfasts</h3>
+                        <p>A growing number of bed and breakfasts offer more lodging choices.</p>
+                        <a href="booking.html?type=stay&amp;stay=bed-breakfast" class="card-link">Booking Information</a>
+                    </article>
+                    <article class="info-card">
+                        <h3>Hostel</h3>
+                        <p>The island also has an inexpensive hostel for budget-conscious travelers.</p>
+                        <a href="booking.html?type=stay&amp;stay=hostel" class="card-link">Booking Information</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beach house improvement used from guerrila testing -->
+        <section id="beach-houses" class="content-section content-section-alt">
+            <div class="container">
+                <h2>Beach Houses and Private Rentals</h2>
+                <p>The tourist survey includes visitors who stayed in beach houses,
+                   private condos, and private homes. These lodging types may suit a
+                   returning visitor who prefers a quiet, private getaway.</p>
+                <p>The survey does not provide real-time availability or specific
+                   property listings.</p>
+                <a href="booking.html?type=stay&amp;stay=beach-house" class="button">Beach House Booking Information</a>
+            </div>
+        </section>
+
+        <!-- Prompt users to confirm details -->
+        <section id="stay-advice" class="content-section">
+            <div class="container">
+                <h2>Before You Book</h2>
+                <p>Confirm dates, location, accessibility, and payment policies with a
+                   verified provider. This student prototype does not process reservations.</p>
+                <a href="booking.html?type=stay" class="button">View Booking Demonstration</a>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <h3>Discover Taniti</h3>
+
+            <!-- Footer Navigation -->
+            <nav aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+            </nav>
+
+            <!-- Project info -->
+            <p class="source-note">
+                Prototype for WGU D479.
+            </p>
+
+        </div>
+    </footer>
+
+    </body>
+    </html>

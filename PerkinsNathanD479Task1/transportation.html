@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Taniti buses, taxis, rental cars, bikes, airport and cruise arrivals.">
+    <title>Transportation | Discover Taniti</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="site-title">
+                <a href="index.html">Discover Taniti</a>
+                <p>Explore your island getaway</p>
+            </div>
+
+            <!-- HOME AND BOOKING REMAIN ACCESSIBLE ON MOBILE -->
+            <div class="header-shortcuts">
+                <a href="index.html">Home</a>
+                <a href="booking.html" class="shortcut-booking">Booking</a>
+            </div>
+            <button type="button" class="menu-toggle" aria-controls="primary-navigation"
+                    aria-expanded="false">Menu</button>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container nav-links" id="primary-navigation">
+                <a href="index.html">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html" class="active" aria-current="page">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav" aria-label="On this page">
+        <div class="container secondary-content">
+            <div class="jump-links">
+                <strong>Jump To:</strong>
+                    <a href="#arrivals">Arrivals</a>
+                    <a href="#getting-around">Getting Around</a>
+                    <a href="#transport-booking">Transport Planning</a>
+            </div>
+            <a class="secondary-booking" href="booking.html">Booking Information</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Page Introduction -->
+        <section class="page-intro container">
+            <div class="page-intro-text">
+                <h1>Transportation</h1>
+                <p>Discover how visitors arrive and travel around the island.</p>
+            </div>
+            <img src="images/vehiclestockimage.jpg" alt="" class="page-intro-image"
+                 width="800" height="400">
+        </section>
+
+        <!-- Arrival Options -->
+        <section id="arrivals" class="content-section">
+            <div class="container">
+                <h2>Getting to Taniti</h2>
+                <p>Most visitors arrive by air. The small island airport currently
+                   handles small jets and propeller planes, with an expansion planned
+                   to accommodate larger jets in future years.</p>
+                <p>A small cruise ship also docks in Yellow Leaf Bay for one night
+                   each week.</p>
+            </div>
+        </section>
+
+        <!-- Transportation -->
+        <section id="getting-around" class="content-section content-section-alt">
+            <div class="container">
+                <h2>Getting Around the Island</h2>
+                <table class="facts-table">
+                    <caption>Available transportation options</caption>
+                    <tbody>
+                        <tr><th scope="row">Public buses</th><td>Taniti City: <strong>5:00 a.m. to 11:00 p.m. every day</strong>.</td></tr>
+                        <tr><th scope="row">Private buses</th><td>Serve the rest of the island.</td></tr>
+                        <tr><th scope="row">Taxis</th><td>Available in Taniti City.</td></tr>
+                        <tr><th scope="row">Rental cars</th><td>Available from a local agency near the airport.</td></tr>
+                        <tr><th scope="row">Bicycle rentals</th><td>Bikes and helmets are available from several vendors. <strong>Helmets are required by law.</strong></td></tr>
+                        <tr><th scope="row">Walking</th><td>Taniti City is fairly flat and walkable, as is the Merriton Landing area.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Transport Planning -->
+        <section id="transport-booking" class="callout-section">
+            <div class="container">
+                <h2>Transportation Planning</h2>
+                <p>Preview the next step for finding and arranging island transportation.</p>
+                <a href="booking.html?type=transport" class="button button-light">Transportation Booking Information</a>
+            </div>
+        </section>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <h3>Discover Taniti</h3>
+
+            <!-- FFooter Navigation -->
+            <nav aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+            </nav>
+
+            <!-- Project Info -->
+            <p class="source-note">
+                Prototype for WGU D479.
+            </p>
+
+        </div>
+    </footer>
+
+    </body>
+    </html>
+

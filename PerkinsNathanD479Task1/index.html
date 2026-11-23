@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan a trip to Taniti with attractions, accommodations, dining, transport, and travel advice.">
+    <title>Home | Discover Taniti</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="site-title">
+                <a href="index.html">Discover Taniti</a>
+                <p>Explore your island getaway</p>
+            </div>
+
+            <!-- HOME AND BOOKING REMAIN ACCESSIBLE ON MOBILE -->
+            <div class="header-shortcuts">
+                <a href="index.html">Home</a>
+                <a href="booking.html" class="shortcut-booking">Booking</a>
+            </div>
+            <button type="button" class="menu-toggle" aria-controls="primary-navigation"
+                    aria-expanded="false">Menu</button>
+        </div>
+    </header>
+
+    <!-- Menu Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container nav-links" id="primary-navigation">
+                <a href="index.html" class="active" aria-current="page">Home</a>
+                <a href="booking.html">Booking</a>
+                <a href="activities.html">Things to Do</a>
+                <a href="stay.html">Where to Stay</a>
+                <a href="dining.html">Food &amp; Dining</a>
+                <a href="transportation.html">Transportation</a>
+                <a href="plan.html">Plan Your Trip</a>
+                <a href="faq.html">Visitor FAQ</a>
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav" aria-label="On this page">
+        <div class="container secondary-content">
+            <div class="jump-links">
+                <strong>Jump To:</strong>
+                    <a href="#explore">Explore Taniti</a>
+                    <a href="#beach-houses">Beach Houses</a>
+                    <a href="#essentials">Visitor Essentials</a>
+            </div>
+            <a class="secondary-booking" href="booking.html">Booking Information</a>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Welcome section -->
+        <section class="welcome-section">
+            <div class="container">
+                <h1>Welcome to Taniti!</h1>
+                <p>Explore your island getaway! Plan dining, transportation, accomodations, and more.</p>
+                <a href="booking.html" class="button">Booking Information</a>
+                <a href="plan.html" class="button button-light">Plan Your Trip</a>
+            </div>
+        </section>
+
+        <!-- Explore Taniti Cards -->
+        <section id="explore" class="feature-section">
+            <div class="container">
+                <h2>Explore Taniti</h2>
+                <p>Select a section to learn more about the island.</p>
+                <div class="feature-grid">
+                <article class="feature-card">
+                    <img src="images/kayakstockimage.jpg" alt="" class="feature-photo card-photo"
+                         width="800" height="400">
+                    <h3>Things to Do</h3>
+                    <p>Beaches,Snorkeling, Hiking</p>
+                    <a href="activities.html" class="card-link">Learn More</a>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/housingstockimage.jpg" alt="" class="feature-photo card-photo"
+                         width="800" height="400">
+                    <h3>Where to Stay</h3>
+                    <p>Hotels, Resorts, Beach Houses</p>
+                    <a href="stay.html" class="card-link">Learn More</a>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/foodstockimage.jpg" alt="" class="feature-photo card-photo"
+                         width="800" height="400">
+                    <h3>Food &amp; Dining</h3>
+                    <p>Restaurants, local cuisine, and groceries</p>
+                    <a href="dining.html" class="card-link">Learn More</a>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/vehiclestockimage.jpg" alt="" class="feature-photo card-photo"
+                         width="800" height="400">
+                    <h3>Transportation</h3>
+                    <p>Arrivals, buses, taxis, rentals, and bikes</p>
+                    <a href="transportation.html" class="card-link">Learn More</a>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/vacationplanstockimage.jpg" alt="" class="feature-photo card-photo"
+                         width="800" height="400">
+                    <h3>Plan Your Trip</h3>
+                    <p>Booking information and helpful travel tips</p>
+                    <a href="plan.html" class="card-link">Learn More</a>
+                </article>
+
+                <article class="feature-card">
+                    <img src="images/faqstockimage.jpg" alt="" class="feature-photo card-photo"
+                         width="800" height="400">
+                    <h3>Visitor FAQ</h3>
+                    <p>Currency, safety, holidays, and power</p>
+                    <a href="faq.html" class="card-link">Learn More</a>
+                </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beach house info, adding after guerrila testing -->
+        <section id="beach-houses" class="content-section content-section-alt">
+            <div class="container">
+                <h2>Looking for a Beach House?</h2>
+                <p>Taniti visitors have reported staying in beach houses and private
+                   accommodations. Visit Where to Stay to explore the lodging options.</p>
+                <a href="stay.html#beach-houses" class="button">Explore Beach Houses</a>
+            </div>
+        </section>
+
+        <!-- Visitor Essential Info -->
+        <section id="essentials" class="callout-section">
+            <div class="container">
+                <h2>Know Before You Go</h2>
+                <p>Find local bus hours, payment information, safety tips, and answers
+                   to common questions before your trip.</p>
+                <a href="faq.html" class="button button-light">View Visitor FAQ</a>
+            </div>
+        </section>
+    </main>
+
+    
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+
+        <h3>Discover Taniti</h3>
+
+        <!-- Footer Navigation -->
+        <nav aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="booking.html">Booking</a>
+            <a href="activities.html">Things to Do</a>
+            <a href="stay.html">Where to Stay</a>
+            <a href="dining.html">Food &amp; Dining</a>
+            <a href="transportation.html">Transportation</a>
+            <a href="plan.html">Plan Your Trip</a>
+            <a href="faq.html">Visitor FAQ</a>
+        </nav>
+
+        <!-- Project Information -->
+        <p class="source-note">
+            Prototype for WGU D479.
+        </p>
+
+        <!-- Image Credits -->
+        <div class="image-credits">
+            <h4>Image Credits</h4>
+
+            <p>
+                Photography sourced from Pexels.
+                Photos by Vincent Gerbouin, Julius Silver,
+                Liuuu _61, Jonathan Borba,
+                Tima Miroshnichenko, and Pixabay.
+            </p>
+
+            <p>
+                See photo references for full attribution.
+            </p>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
+
